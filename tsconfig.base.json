@@ -3,9 +3,11 @@
 
     "compilerOptions": {        
         "lib": ["es2021", "DOM"],
-        "module": "commonjs",        
         "target": "es2021",
-        "moduleResolution": "node",
+        // "module": "commonjs",        
+        // "moduleResolution": "node",
+        "module": "NodeNext",    
+        "moduleResolution": "NodeNext",
 
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
