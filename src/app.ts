@@ -3,5 +3,5 @@ import { httpService } from '@src/http.service';
 import { router } from '@src/router';
 
 export const app = async (): Promise<void> => {
-	await httpService.start({ ...config, listener: router });
+  await httpService.start({ ...config, listener: router });
 };
